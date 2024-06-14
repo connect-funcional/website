@@ -5,6 +5,7 @@ import {
   MainSidebar,
   MainSidebarButton,
   TopBar,
+  WhatsAppButton,
 } from '@/app-one/components';
 import { SkipNavigation } from '@/components';
 
@@ -43,6 +44,8 @@ export default async function Layout({ children }: LayoutProps) {
 
         <main id={contentId} className={styles['children-content']}>
           {children}
+
+          <WhatsAppButton />
         </main>
       </div>
     </body>
