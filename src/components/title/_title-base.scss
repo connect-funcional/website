@@ -1,0 +1,40 @@
+& {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-normal);
+
+  &[data-weight='normal'] {
+    font-weight: var(--font-weight-normal);
+  }
+
+  &[data-weight='semibold'] {
+    font-weight: var(--font-weight-semibold);
+  }
+
+  &[data-weight='bold'] {
+    font-weight: var(--font-weight-bold);
+  }
+
+  &[data-size='s'] {
+    font-size: var(--font-size-s);
+  }
+
+  &[data-size='m'] {
+    font-size: var(--font-size-m);
+  }
+
+  &[data-size='l'] {
+    font-size: var(--font-size-l);
+  }
+
+  &[data-size='xl'] {
+    font-size: var(--font-size-xl);
+  }
+
+  &[data-size='2xl'] {
+    font-size: var(--font-size-2xl);
+  }
+
+  &[data-size='3xl'] {
+    font-size: var(--font-size-3xl);
+  }
+}

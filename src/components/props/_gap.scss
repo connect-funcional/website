@@ -1,0 +1,133 @@
+& {
+  &[data-gap='unset'] {
+    gap: unset;
+  }
+
+  &[data-gap='5xl'] {
+    gap: var(--space-5xl);
+  }
+
+  &[data-gap='4xl'] {
+    gap: var(--space-4xl);
+  }
+
+  &[data-gap='3xl'] {
+    gap: var(--space-3xl);
+  }
+
+  &[data-gap='2xl'] {
+    gap: var(--space-2xl);
+  }
+
+  &[data-gap='xl'] {
+    gap: var(--space-xl);
+  }
+
+  &[data-gap='l'] {
+    gap: var(--space-l);
+  }
+
+  &[data-gap='m'] {
+    gap: var(--space-m);
+  }
+
+  &[data-gap='s'] {
+    gap: var(--space-s);
+  }
+
+  &[data-gap='xs'] {
+    gap: var(--space-xs);
+  }
+
+  &[data-gap='2xs'] {
+    gap: var(--space-2xs);
+  }
+
+  &[data-gap='3xs'] {
+    gap: var(--space-3xs);
+  }
+
+  // --------------------------------------------
+
+  &[data-columngap='unset'] {
+    column-gap: unset;
+  }
+
+  &[data-columngap='3xl'] {
+    column-gap: var(--space-3xl);
+  }
+
+  &[data-columngap='2xl'] {
+    column-gap: var(--space-2xl);
+  }
+
+  &[data-columngap='xl'] {
+    column-gap: var(--space-xl);
+  }
+
+  &[data-columngap='l'] {
+    column-gap: var(--space-l);
+  }
+
+  &[data-columngap='m'] {
+    column-gap: var(--space-m);
+  }
+
+  &[data-columngap='s'] {
+    column-gap: var(--space-s);
+  }
+
+  &[data-columngap='xs'] {
+    column-gap: var(--space-xs);
+  }
+
+  &[data-columngap='2xs'] {
+    column-gap: var(--space-2xs);
+  }
+
+  &[data-columngap='3xs'] {
+    column-gap: var(--space-3xs);
+  }
+
+  // --------------------------------------------
+
+  &[data-rowgap='unset'] {
+    row-gap: unset;
+  }
+
+  &[data-rowgap='3xl'] {
+    row-gap: var(--space-3xl);
+  }
+
+  &[data-rowgap='2xl'] {
+    row-gap: var(--space-2xl);
+  }
+
+  &[data-rowgap='xl'] {
+    row-gap: var(--space-xl);
+  }
+
+  &[data-rowgap='l'] {
+    row-gap: var(--space-l);
+  }
+
+  &[data-rowgap='m'] {
+    row-gap: var(--space-m);
+  }
+
+  &[data-rowgap='s'] {
+    row-gap: var(--space-s);
+  }
+
+  &[data-rowgap='xs'] {
+    row-gap: var(--space-xs);
+  }
+
+  &[data-rowgap='2xs'] {
+    row-gap: var(--space-2xs);
+  }
+
+  &[data-rowgap='3xs'] {
+    row-gap: var(--space-3xs);
+  }
+}

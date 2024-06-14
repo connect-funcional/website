@@ -1,0 +1,23 @@
+.imgDark {
+  display: none;
+}
+
+[data-theme='dark'] {
+  .imgLight {
+    display: none;
+  }
+  .imgDark {
+    display: unset;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='auto'] {
+    .imgLight {
+      display: none;
+    }
+    .imgDark {
+      display: unset;
+    }
+  }
+}

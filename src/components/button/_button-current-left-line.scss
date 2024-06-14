@@ -1,0 +1,83 @@
+& {
+  $buttonLeftShadowSize: 5px;
+
+  &[data-current='left-line-primary-1'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-1);
+  }
+
+  &[data-current='left-line-primary-2'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-2);
+  }
+
+  &[data-current='left-line-primary-3'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-3);
+  }
+
+  &[data-current='left-line-primary-4'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-4);
+  }
+
+  &[data-current='left-line-primary-5'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-5);
+  }
+
+  &[data-current='left-line-primary-1-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-1-i);
+  }
+
+  &[data-current='left-line-primary-2-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-2-i);
+  }
+
+  &[data-current='left-line-primary-3-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-3-i);
+  }
+
+  &[data-current='left-line-primary-4-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-4-i);
+  }
+
+  &[data-current='left-line-primary-5-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-primary-5-i);
+  }
+
+  &[data-current='left-line-neutral-1'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-1);
+  }
+
+  &[data-current='left-line-neutral-2'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-2);
+  }
+
+  &[data-current='left-line-neutral-3'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-3);
+  }
+
+  &[data-current='left-line-neutral-4'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-4);
+  }
+
+  &[data-current='left-line-neutral-5'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-5);
+  }
+
+  &[data-current='left-line-neutral-1-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-1-i);
+  }
+
+  &[data-current='left-line-neutral-2-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-2-i);
+  }
+
+  &[data-current='left-line-neutral-3-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-3-i);
+  }
+
+  &[data-current='left-line-neutral-4-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-4-i);
+  }
+
+  &[data-current='left-line-neutral-5-i'] {
+    box-shadow: inset $buttonLeftShadowSize 0 0 0 var(--color-neutral-5-i);
+  }
+}

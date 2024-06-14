@@ -1,0 +1,23 @@
+& {
+  text-decoration: none;
+  color: var(--color-link);
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  &:active {
+    filter: brightness(1.15);
+  }
+
+  &[data-disabled='true'] {
+    color: var(--color-link-disabled);
+    cursor: not-allowed;
+
+    &:hover,
+    &:active {
+      filter: unset;
+    }
+  }
+}

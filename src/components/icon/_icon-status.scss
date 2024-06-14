@@ -1,0 +1,249 @@
+& {
+  &[data-status='default'] {
+    color: unset;
+  }
+
+  &[data-status='foreground'] {
+    color: var(--color-foreground);
+  }
+
+  &[data-status='primary-1'] {
+    color: var(--color-primary-1);
+  }
+
+  &[data-status='primary-2'] {
+    color: var(--color-primary-2);
+  }
+
+  &[data-status='primary-3'] {
+    color: var(--color-primary-3);
+  }
+
+  &[data-status='primary-4'] {
+    color: var(--color-primary-4);
+  }
+
+  &[data-status='primary-5'] {
+    color: var(--color-primary-5);
+  }
+
+  &[data-status='primary-1-i'] {
+    color: var(--color-primary-1-i);
+  }
+
+  &[data-status='primary-2-i'] {
+    color: var(--color-primary-2-i);
+  }
+
+  &[data-status='primary-3-i'] {
+    color: var(--color-primary-3-i);
+  }
+
+  &[data-status='primary-4-i'] {
+    color: var(--color-primary-4-i);
+  }
+
+  &[data-status='primary-5-i'] {
+    color: var(--color-primary-5-i);
+  }
+
+  &[data-status='neutral-1'] {
+    color: var(--color-neutral-1);
+  }
+
+  &[data-status='neutral-2'] {
+    color: var(--color-neutral-2);
+  }
+
+  &[data-status='neutral-3'] {
+    color: var(--color-neutral-3);
+  }
+
+  &[data-status='neutral-4'] {
+    color: var(--color-neutral-4);
+  }
+
+  &[data-status='neutral-5'] {
+    color: var(--color-neutral-5);
+  }
+
+  &[data-status='neutral-1-i'] {
+    color: var(--color-neutral-1-i);
+  }
+
+  &[data-status='neutral-2-i'] {
+    color: var(--color-neutral-2-i);
+  }
+
+  &[data-status='neutral-3-i'] {
+    color: var(--color-neutral-3-i);
+  }
+
+  &[data-status='neutral-4-i'] {
+    color: var(--color-neutral-4-i);
+  }
+
+  &[data-status='neutral-5-i'] {
+    color: var(--color-neutral-5-i);
+  }
+
+  &[data-status='positive-1'] {
+    color: var(--color-positive-1);
+  }
+
+  &[data-status='positive-2'] {
+    color: var(--color-positive-2);
+  }
+
+  &[data-status='positive-3'] {
+    color: var(--color-positive-3);
+  }
+
+  &[data-status='positive-4'] {
+    color: var(--color-positive-4);
+  }
+
+  &[data-status='positive-5'] {
+    color: var(--color-positive-5);
+  }
+
+  &[data-status='positive-1-i'] {
+    color: var(--color-positive-1);
+  }
+
+  &[data-status='positive-2-i'] {
+    color: var(--color-positive-2);
+  }
+
+  &[data-status='positive-3-i'] {
+    color: var(--color-positive-3-i);
+  }
+
+  &[data-status='positive-4-i'] {
+    color: var(--color-positive-4-i);
+  }
+
+  &[data-status='positive-5-i'] {
+    color: var(--color-positive-5-i);
+  }
+
+  &[data-status='warning-1'] {
+    color: var(--color-warning-1);
+  }
+
+  &[data-status='warning-2'] {
+    color: var(--color-warning-2);
+  }
+
+  &[data-status='warning-3'] {
+    color: var(--color-warning-3);
+  }
+
+  &[data-status='warning-4'] {
+    color: var(--color-warning-4);
+  }
+
+  &[data-status='warning-5'] {
+    color: var(--color-warning-5);
+  }
+
+  &[data-status='warning-1-i'] {
+    color: var(--color-warning-1-i);
+  }
+
+  &[data-status='warning-2-i'] {
+    color: var(--color-warning-2-i);
+  }
+
+  &[data-status='warning-3-i'] {
+    color: var(--color-warning-3-i);
+  }
+
+  &[data-status='warning-4-i'] {
+    color: var(--color-warning-4-i);
+  }
+
+  &[data-status='warning-5-i'] {
+    color: var(--color-warning-5-i);
+  }
+
+  &[data-status='negative-1'] {
+    color: var(--color-negative-1);
+  }
+
+  &[data-status='negative-2'] {
+    color: var(--color-negative-2);
+  }
+
+  &[data-status='negative-3'] {
+    color: var(--color-negative-3);
+  }
+
+  &[data-status='negative-4'] {
+    color: var(--color-negative-4);
+  }
+
+  &[data-status='negative-5'] {
+    color: var(--color-negative-5);
+  }
+
+  &[data-status='negative-1-i'] {
+    color: var(--color-negative-1-i);
+  }
+
+  &[data-status='negative-2-i'] {
+    color: var(--color-negative-2-i);
+  }
+
+  &[data-status='negative-3-i'] {
+    color: var(--color-negative-3-i);
+  }
+
+  &[data-status='negative-4-i'] {
+    color: var(--color-negative-4-i);
+  }
+
+  &[data-status='negative-5-i'] {
+    color: var(--color-negative-5-i);
+  }
+
+  &[data-status='info-1'] {
+    color: var(--color-info-1);
+  }
+
+  &[data-status='info-2'] {
+    color: var(--color-info-2);
+  }
+
+  &[data-status='info-3'] {
+    color: var(--color-info-3);
+  }
+
+  &[data-status='info-4'] {
+    color: var(--color-info-4);
+  }
+
+  &[data-status='info-5'] {
+    color: var(--color-info-5);
+  }
+
+  &[data-status='info-1-i'] {
+    color: var(--color-info-1-i);
+  }
+
+  &[data-status='info-2-i'] {
+    color: var(--color-info-2-i);
+  }
+
+  &[data-status='info-3-i'] {
+    color: var(--color-info-3-i);
+  }
+
+  &[data-status='info-4-i'] {
+    color: var(--color-info-4-i);
+  }
+
+  &[data-status='info-5-i'] {
+    color: var(--color-info-5-i);
+  }
+}

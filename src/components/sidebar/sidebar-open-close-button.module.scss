@@ -1,0 +1,19 @@
+.button {
+  display: inline-flex;
+}
+
+@media (min-width: 761px) {
+  .button {
+    &[data-buttontype='modal-sidebar-button'] {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .button {
+    &[data-buttontype='sidebar-button'] {
+      display: none;
+    }
+  }
+}

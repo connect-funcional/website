@@ -1,0 +1,65 @@
+& {
+  &[data-justifycontent='center'] {
+    justify-content: center;
+  }
+
+  &[data-justifycontent='end'] {
+    justify-content: end;
+  }
+
+  &[data-justifycontent='flex-end'] {
+    justify-content: flex-end;
+  }
+
+  &[data-justifycontent='flex-start'] {
+    justify-content: flex-start;
+  }
+
+  &[data-justifycontent='left'] {
+    justify-content: left;
+  }
+
+  &[data-justifycontent='right'] {
+    justify-content: right;
+  }
+
+  &[data-justifycontent='space-around'] {
+    justify-content: space-around;
+  }
+
+  &[data-justifycontent='space-between'] {
+    justify-content: space-between;
+  }
+
+  &[data-justifycontent='space-evenly'] {
+    justify-content: space-evenly;
+  }
+
+  &[data-justifycontent='start'] {
+    justify-content: start;
+  }
+
+  &[data-justifycontent='stretch'] {
+    justify-content: stretch;
+  }
+
+  &[data-justifycontent='inherit'] {
+    justify-content: inherit;
+  }
+
+  &[data-justifycontent='initial'] {
+    justify-content: initial;
+  }
+
+  &[data-justifycontent='revert'] {
+    justify-content: revert;
+  }
+
+  &[data-justifycontent='revert-layer'] {
+    justify-content: revert-layer;
+  }
+
+  &[data-justifycontent='unset'] {
+    justify-content: unset;
+  }
+}

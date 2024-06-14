@@ -1,0 +1,17 @@
+export type JustifyContent =
+  | 'center'
+  | 'end'
+  | 'flex-end'
+  | 'flex-start'
+  | 'left'
+  | 'right'
+  | 'space-around'
+  | 'space-between'
+  | 'space-evenly'
+  | 'start'
+  | 'stretch'
+  | 'inherit'
+  | 'initial'
+  | 'revert'
+  | 'revert-layer'
+  | 'unset';

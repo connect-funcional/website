@@ -1,0 +1,14 @@
+& {
+  display: inline-flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+
+  max-width: fit-content;
+  padding: 0 6px;
+  gap: 8px;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,44 @@
+&[data-status='discreet'],
+&[data-status='inactive'],
+&[data-status='default'],
+&[data-status='neutral'] {
+  color: var(--color-neutral-5);
+  background-color: var(--color-neutral-1);
+}
+
+&[data-status='new'],
+&[data-status='current'],
+&[data-status='emphasis'],
+&[data-status='active'],
+&[data-status='primary'] {
+  color: var(--color-primary-5);
+  background-color: var(--color-primary-1);
+}
+
+&[data-status='success'],
+&[data-status='received'],
+&[data-status='positive'] {
+  color: var(--color-positive-5);
+  background-color: var(--color-positive-1);
+}
+
+&[data-status='pending'],
+&[data-status='warning'] {
+  color: var(--color-warning-5);
+  background-color: var(--color-warning-1);
+}
+
+&[data-status='declined'],
+&[data-status='rejected'],
+&[data-status='error'],
+&[data-status='negative'] {
+  color: var(--color-negative-5);
+  background-color: var(--color-negative-1);
+}
+
+&[data-status='sent'],
+&[data-status='secondary'],
+&[data-status='info'] {
+  color: var(--color-info-5);
+  background-color: var(--color-info-1);
+}

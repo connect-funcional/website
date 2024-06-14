@@ -1,0 +1,18 @@
+& {
+  @import 'button-current-left-line';
+  @import 'button-current-text-underline';
+
+  &[data-status='ghost'],
+  &[data-status='default-ghost'],
+  &[data-status='primary-ghost'],
+  &[data-status='neutral-ghost'],
+  &[data-status='positive-ghost'],
+  &[data-status='warning-ghost'],
+  &[data-status='negative-ghost'],
+  &[data-status='info-ghost'] {
+    &[data-current='true'],
+    &[data-current='bg-semitransparent-1'] {
+      background-color: var(--color-semitransparent-1);
+    }
+  }
+}

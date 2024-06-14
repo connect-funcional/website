@@ -1,0 +1,26 @@
+.page-content {
+  display: flex;
+  flex-direction: row;
+
+  flex: 1;
+  height: 100%;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+}
+
+.children-content {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  height: auto;
+}
+
+.top-bar-controls-section {
+  margin-left: auto;
+}

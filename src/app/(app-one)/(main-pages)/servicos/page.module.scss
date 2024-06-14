@@ -1,0 +1,19 @@
+.container {
+  @import '../default.page';
+
+  .small-image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 330;
+    max-height: 330;
+    width: 100%;
+    height: auto;
+    gap: var(--space-2xl);
+  }
+
+  .small-image {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,164 @@
+:root {
+  --font-size-3xl: 2.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-xl: 1.55rem;
+  --font-size-l: 1.35rem;
+  --font-size-m: 1.2rem;
+  --font-size-s: 0.8rem;
+
+  --space-5xl: 30px;
+  --space-4xl: 28px;
+  --space-3xl: 26px;
+  --space-2xl: 22px;
+  --space-xl: 18px;
+  --space-l: 14px;
+  --space-m: 10px;
+  --space-s: 8px;
+  --space-xs: 6px;
+  --space-2xs: 4px;
+  --space-3xs: 2px;
+
+  --border-radius: 6px;
+
+  --font-weight-normal: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 800;
+
+  @import 'colors';
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  @import 'dark-theme';
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  @import 'light-theme';
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  width: fit-content;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-m);
+
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+p,
+li,
+dd,
+dt {
+  max-width: 65ch;
+  line-height: 1.75;
+}
+
+li,
+dd {
+  max-inline-size: 55ch;
+}
+
+ol,
+ul,
+dd,
+details > *:not(summary) {
+  padding-inline-start: 34px;
+  padding-inline-end: 34px;
+}
+
+dt:not(:first-of-type) {
+  margin-top: 2ch;
+}
+
+li {
+  list-style-position: outside;
+  padding-inline-start: 6px;
+
+  &::marker {
+    color: var(--color-primary-4-i);
+  }
+}
+
+li::marker,
+dt,
+b,
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+details {
+  max-width: fit-content;
+  padding: 8px;
+  border: 1px solid var(--color-semitransparent-2);
+  border-radius: 4px;
+
+  background-color: var(--color-semitransparent-1);
+
+  summary {
+    color: var(--color-link);
+  }
+
+  & > *:not(summary) {
+    margin-block-start: 1rem;
+  }
+}
+
+details summary,
+a,
+button,
+select,
+input[type='checkbox'],
+input[type='radio'],
+input[type='file'],
+input[type='submit'],
+input[type='reset'],
+input[type='color'],
+input[type='range'] {
+  cursor: pointer;
+}
+
+pre,
+code {
+  font-family: monospace;
+}
+
+sup,
+sub,
+small {
+  font-size: var(--font-size-s);
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='auto'] {
+    color-scheme: dark;
+    @import 'dark-theme';
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  [data-theme='auto'] {
+    color-scheme: light;
+    @import 'light-theme';
+  }
+}

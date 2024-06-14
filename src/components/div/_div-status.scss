@@ -1,0 +1,30 @@
+& {
+  &[data-status='surface-1'] {
+    background-color: var(--color-surface-1);
+  }
+
+  &[data-status='surface-2'] {
+    background-color: var(--color-surface-2);
+  }
+
+  &[data-status='surface-3'] {
+    background-color: var(--color-surface-3);
+  }
+
+  &[data-status='surface-4'] {
+    background-color: var(--color-surface-4);
+  }
+
+  &[data-status='over'] {
+    background-color: var(--color-over-element-background);
+    box-shadow: var(--box-shadow-over-element);
+  }
+
+  &[data-status='ghost'] {
+    background: none;
+
+    &:hover {
+      background-color: var(--color-semitransparent-1);
+    }
+  }
+}

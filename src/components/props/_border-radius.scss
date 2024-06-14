@@ -1,0 +1,38 @@
+& {
+  &[data-borderradius='unset'],
+  &[data-borderradius='false'] {
+    border-radius: unset;
+  }
+
+  &[data-borderradius='true'] {
+    border-radius: var(--border-radius);
+  }
+
+  &[data-borderradius='circle'] {
+    border-radius: 50%;
+  }
+
+  &[data-borderradius='top'] {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+
+  &[data-borderradius='bottom'] {
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+  }
+
+  &[data-borderradius='right'] {
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  }
+
+  &[data-borderradius='left'] {
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+  }
+
+  &[data-borderradius='top-left-and-bottom-right'] {
+    border-radius: var(--border-radius) 0 var(--border-radius) 0;
+  }
+
+  &[data-borderradius='top-right-and-bottom-left'] {
+    border-radius: 0 var(--border-radius) 0 var(--border-radius);
+  }
+}

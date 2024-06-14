@@ -1,0 +1,13 @@
+.skip-navigation {
+  position: absolute;
+  top: -1000px;
+
+  padding: 4px 6px;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.skip-navigation:focus-within {
+  position: relative;
+  top: unset;
+}

@@ -1,0 +1,20 @@
+.container {
+  @import '../default.page';
+
+  .big-image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 720;
+    max-height: 540;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    gap: var(--space-2xl);
+  }
+
+  .big-image {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,38 @@
+:where(&:not([data-disabled='true'])) {
+  &[data-status='default'] {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+
+  &[data-status='foreground'] {
+    color: var(--color-foreground);
+  }
+
+  &[data-status='unset'] {
+    color: unset;
+  }
+
+  &[data-status='primary'] {
+    color: var(--color-primary-4-i);
+  }
+
+  &[data-status='neutral'] {
+    color: var(--color-neutral-4-i);
+  }
+
+  &[data-status='positive'] {
+    color: var(--color-positive-4-i);
+  }
+
+  &[data-status='warning'] {
+    color: var(--color-warning-4-i);
+  }
+
+  &[data-status='negative'] {
+    color: var(--color-negative-4-i);
+  }
+
+  &[data-status='info'] {
+    color: var(--color-info-4-i);
+  }
+}

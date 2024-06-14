@@ -1,0 +1,105 @@
+& {
+  &[data-current='text-underline-primary-1'],
+  &[data-current='text-underline-primary-2'],
+  &[data-current='text-underline-primary-3'],
+  &[data-current='text-underline-primary-4'],
+  &[data-current='text-underline-primary-5'],
+  &[data-current='text-underline-primary-1-i'],
+  &[data-current='text-underline-primary-2-i'],
+  &[data-current='text-underline-primary-3-i'],
+  &[data-current='text-underline-primary-4-i'],
+  &[data-current='text-underline-primary-5-i'],
+  &[data-current='text-underline-neutral-1'],
+  &[data-current='text-underline-neutral-2'],
+  &[data-current='text-underline-neutral-3'],
+  &[data-current='text-underline-neutral-4'],
+  &[data-current='text-underline-neutral-5'],
+  &[data-current='text-underline-neutral-1-i'],
+  &[data-current='text-underline-neutral-2-i'],
+  &[data-current='text-underline-neutral-3-i'],
+  &[data-current='text-underline-neutral-4-i'],
+  &[data-current='text-underline-neutral-5-i'] {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+
+  &[data-current='text-underline-primary-1'] {
+    text-decoration-color: var(--color-primary-1);
+  }
+
+  &[data-current='text-underline-primary-2'] {
+    text-decoration-color: var(--color-primary-2);
+  }
+
+  &[data-current='text-underline-primary-3'] {
+    text-decoration-color: var(--color-primary-3);
+  }
+
+  &[data-current='text-underline-primary-4'] {
+    text-decoration-color: var(--color-primary-4);
+  }
+
+  &[data-current='text-underline-primary-5'] {
+    text-decoration-color: var(--color-primary-5);
+  }
+
+  &[data-current='text-underline-primary-1-i'] {
+    text-decoration-color: var(--color-primary-1-i);
+  }
+
+  &[data-current='text-underline-primary-2-i'] {
+    text-decoration-color: var(--color-primary-2-i);
+  }
+
+  &[data-current='text-underline-primary-3-i'] {
+    text-decoration-color: var(--color-primary-3-i);
+  }
+
+  &[data-current='text-underline-primary-4-i'] {
+    text-decoration-color: var(--color-primary-4-i);
+  }
+
+  &[data-current='text-underline-primary-5-i'] {
+    text-decoration-color: var(--color-primary-5-i);
+  }
+
+  &[data-current='text-underline-neutral-1'] {
+    text-decoration-color: var(--color-neutral-1);
+  }
+
+  &[data-current='text-underline-neutral-2'] {
+    text-decoration-color: var(--color-neutral-2);
+  }
+
+  &[data-current='text-underline-neutral-3'] {
+    text-decoration-color: var(--color-neutral-3);
+  }
+
+  &[data-current='text-underline-neutral-4'] {
+    text-decoration-color: var(--color-neutral-4);
+  }
+
+  &[data-current='text-underline-neutral-5'] {
+    text-decoration-color: var(--color-neutral-5);
+  }
+
+  &[data-current='text-underline-neutral-1-i'] {
+    text-decoration-color: var(--color-neutral-1-i);
+  }
+
+  &[data-current='text-underline-neutral-2-i'] {
+    text-decoration-color: var(--color-neutral-2-i);
+  }
+
+  &[data-current='text-underline-neutral-3-i'] {
+    text-decoration-color: var(--color-neutral-3-i);
+  }
+
+  &[data-current='text-underline-neutral-4-i'] {
+    text-decoration-color: var(--color-neutral-4-i);
+  }
+
+  &[data-current='text-underline-neutral-5-i'] {
+    text-decoration-color: var(--color-neutral-5-i);
+  }
+}

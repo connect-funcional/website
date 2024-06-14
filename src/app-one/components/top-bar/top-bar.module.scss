@@ -1,0 +1,36 @@
+$gap: 12px;
+
+.root-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  flex: 0 1;
+  min-height: 52px;
+  gap: $gap;
+  padding: 4px 10px;
+
+  &[data-background='none'] {
+    background: none;
+  }
+
+  &[data-background='default'] {
+    background-color: var(--color-top-bar-background);
+  }
+
+  &[data-background='surface-3'] {
+    background-color: var(--color-surface-3);
+  }
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+  min-height: 44px;
+  gap: $gap;
+}

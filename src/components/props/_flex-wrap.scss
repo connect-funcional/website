@@ -1,0 +1,33 @@
+& {
+  &[data-flexwrap='nowrap'] {
+    flex-wrap: nowrap;
+  }
+
+  &[data-flexwrap='wrap'] {
+    flex-wrap: wrap;
+  }
+
+  &[data-flexwrap='wrap-reverse'] {
+    flex-wrap: wrap-reverse;
+  }
+
+  &[data-flexwrap='inherit'] {
+    flex-wrap: inherit;
+  }
+
+  &[data-flexwrap='initial'] {
+    flex-wrap: initial;
+  }
+
+  &[data-flexwrap='revert'] {
+    flex-wrap: revert;
+  }
+
+  &[data-flexwrap='revert-layer'] {
+    flex-wrap: revert-layer;
+  }
+
+  &[data-flexwrap='unset'] {
+    flex-wrap: unset;
+  }
+}
