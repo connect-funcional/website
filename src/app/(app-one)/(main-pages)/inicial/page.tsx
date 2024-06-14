@@ -54,7 +54,7 @@ export default async function Page() {
 
           <div className={styles['small-image-container']}>
             <Image
-              src="/foto-001-330px.jpg"
+              src="/photo-001-330px.png"
               alt="Foto de treinamento na Connect Functional"
               width={330}
               height={330}
@@ -64,8 +64,8 @@ export default async function Page() {
 
           <div className={styles['small-image-container']}>
             <Image
-              src="/foto-002-330px.jpg"
-              alt="Foto de equipamento da Connect Functional"
+              src="/photo-002-330px.jpg"
+              alt="Foto da estrutura da Connect Functional"
               width={330}
               height={330}
               className={styles['small-image']}
@@ -122,9 +122,9 @@ export default async function Page() {
           </Div>
 
           <Div display="flex-column" gap="2xl">
-            <Link href={route.STRUCTURE}>Saber mais sobe nossa estrutura</Link>
+            <Link href={route.STRUCTURE}>Saber mais sobre nossa estrutura</Link>
             <Link
-              href="https://maps.app.goo.gl/Rn7QiSQUcseKbEty8"
+              href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
               target="_blank"
             >
               Abrir no Google Maps

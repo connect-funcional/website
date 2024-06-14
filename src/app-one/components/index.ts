@@ -19,3 +19,5 @@ export { UserPopover } from './popover/user-popover.component';
 export { ThemePopoverMenuItens } from './popover/theme-popover-menu-itens.component';
 
 export { TopBar } from './top-bar/top-bar.component';
+
+export { WhatsAppButton } from './whatsapp-button/whatsapp-button.component';

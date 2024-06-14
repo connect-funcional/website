@@ -12,10 +12,10 @@ export default async function Page() {
 
         <div className={styles['big-image-container']}>
           <Image
-            src="/foto-003-720px-540px.jpg"
+            src="/photo-004-600px-500px.jpeg"
             alt="Foto do estabelecimento"
-            width={720}
-            height={540}
+            width={600}
+            height={500}
             className={styles['big-image']}
           />
         </div>
@@ -82,7 +82,7 @@ export default async function Page() {
 
           <Div display="flex" flexWrap="wrap" gap="2xl">
             <Link
-              href="https://maps.app.goo.gl/Rn7QiSQUcseKbEty8"
+              href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
               target="_blank"
               style={{ textDecoration: 'none' }}
             >
@@ -99,7 +99,7 @@ export default async function Page() {
               Veja nossa localização no Google Maps
               <br />
               <Link
-                href="https://maps.app.goo.gl/Rn7QiSQUcseKbEty8"
+                href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
                 target="_blank"
                 style={{ textDecoration: 'none' }}
               >

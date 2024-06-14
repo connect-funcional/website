@@ -61,7 +61,7 @@ export default async function Page() {
 
         <p>
           <Link
-            href="https://maps.app.goo.gl/Rn7QiSQUcseKbEty8"
+            href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
             target="_blank"
           >
             Abrir no Google Maps
