@@ -21,12 +21,14 @@
 .small-image {
   width: 100%;
   height: auto;
+  transition: all 0.3s ease-in;
+  filter: saturate(0);
+
+  &:hover {
+    filter: saturate(1);
+  }
 }
 
 .follow-links {
   text-decoration: none;
-
-  // &:hover {
-  //   filter: brightness(1.03);
-  // }
 }
