@@ -54,21 +54,21 @@ export default async function Page() {
 
           <div className={styles['small-image-container']}>
             <Image
-              src="/photo-001-330px.png"
+              src="/photo-001-330px-330px.png"
               alt="Foto de treinamento na Connect Functional"
               width={330}
               height={330}
-              className={styles['small-image']}
+              className={`${styles.image} ${styles['saturate-image']}`}
             />
           </div>
 
           <div className={styles['small-image-container']}>
             <Image
-              src="/photo-002-330px.jpg"
+              src="/photo-002-330px-330px.jpg"
               alt="Foto da estrutura da Connect Functional"
               width={330}
               height={330}
-              className={styles['small-image']}
+              className={`${styles.image} ${styles['saturate-image']}`}
             />
           </div>
 
@@ -99,68 +99,112 @@ export default async function Page() {
         </Div>
       </Div>
 
-      <Div display="flex-column" gap="2xl">
-        <Title.H2 size="2xl">Local</Title.H2>
-
-        <Div display="flex" flexWrap="wrap" gap="5xl">
+      <Div
+        display="flex"
+        flexWrap="wrap"
+        justifyContent="space-between"
+        style={{ gap: '90px' }}
+      >
+        <Div display="flex-column" gap="5xl">
           <Div display="flex-column" gap="2xl">
-            <p>
-              SGAS 906, CONJUNTO A, BLOCO 6/8
-              <br />
-              ASA SUL, BRASÍLIA - DF
-              <br />
-              Entrada pela Faculdade Mackenzie
-            </p>
+            <Title.H2 size="2xl">Local</Title.H2>
 
-            <p>
-              Horário de Funcionamento
-              <br />
-              Segunda a sexta, das 6h às 12h e das 15h às 21h
-              <br />
-              Sábado das 8h às 12h
-            </p>
+            <Div display="flex" flexWrap="wrap" gap="2xl">
+              <Div display="flex" flexWrap="wrap" gap="5xl">
+                <Div display="flex-column" gap="2xl">
+                  <p>
+                    SGAS 906, conjunto A, bloco 6/8
+                    <br />
+                    Asa Sul, Brasília - DF
+                    <br />
+                    Entrada pela Faculdade Mackenzie
+                  </p>
+
+                  <p>
+                    Horário de Funcionamento
+                    <br />
+                    Segunda a sexta - 6h às 12h e 15h às 21h
+                    <br />
+                    Sábado - 8h às 12h
+                  </p>
+                </Div>
+              </Div>
+
+              <Div display="flex-column" gap="2xl">
+                <Link href={route.STRUCTURE}>Sobre nossa estrutura</Link>
+                <Link
+                  href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
+                  target="_blank"
+                >
+                  Abrir no Google Maps
+                </Link>
+              </Div>
+            </Div>
           </Div>
 
           <Div display="flex-column" gap="2xl">
-            <Link href={route.STRUCTURE}>Saber mais sobre nossa estrutura</Link>
-            <Link
-              href="https://maps.app.goo.gl/4BbWWf8nUTJHUyPc8"
-              target="_blank"
-            >
-              Abrir no Google Maps
-            </Link>
+            <Title.H2 size="2xl">Entre em contato</Title.H2>
+
+            <Div display="flex" flexWrap="wrap" gap="2xl">
+              <Link
+                href="https://api.whatsapp.com/send?phone=5561999514331"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Image
+                  src="/whatsapp.svg"
+                  alt="Logo do WhatsApp"
+                  width={50}
+                  height={50}
+                  style={{ marginTop: '6px' }}
+                />
+              </Link>
+
+              <p>
+                Agende um treino grátis
+                <br />
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5561999514331"
+                  target="_blank"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <b>(61) 99951-4331</b>
+                </Link>
+              </p>
+            </Div>
           </Div>
         </Div>
-      </Div>
 
-      <Div display="flex-column" gap="2xl">
-        <Title.H2 size="2xl">Entre em contato</Title.H2>
+        <Div
+          status="surface-3"
+          display="flex-column"
+          padding="l"
+          gap="2xl"
+          borderRadius
+          style={{ maxWidth: '460px' }}
+        >
+          <Title.H2 size="2xl">Gustavo Schlottfeldt Brandão</Title.H2>
 
-        <Div display="flex" flexWrap="wrap" gap="2xl">
-          <Link
-            href="https://api.whatsapp.com/send?phone=5561999514331"
-            target="_blank"
-            style={{ textDecoration: 'none' }}
-          >
+          <div className={styles['team-image-container']}>
             <Image
-              src="/whatsapp.svg"
-              alt="Logo do WhatsApp"
-              width={50}
-              height={50}
-              style={{ marginTop: '6px' }}
+              src="/photo-005-270px-270px.jpg"
+              alt="Foto do instrutor da Connect Functional"
+              width={270}
+              height={270}
+              className={styles['round-image']}
             />
-          </Link>
+          </div>
 
           <p>
-            Agende um treino grátis
-            <br />
-            <Link
-              href="https://api.whatsapp.com/send?phone=5561999514331"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <b>(61) 99951-4331</b>
-            </Link>
+            Graduado em Educação Física pela UCB, pós graduado em Musculação
+            pela UVA, Certificado Internacional no método FMS 1 & 2 (Functional
+            Movement Screen) e CooperPT Mentorship, Certificado nacional –
+            Construindo uma Base Sólida em Atletas – com Marcelo Lins. No
+            mercado desde 2002 atuando como Personal Trainer, Avaliador Físico
+            (Composição Corporal e de Movimento FMS), foi instrutor e
+            coordenador da Academia Corpo 4. Atualmente treinador do Instituto
+            Connect Funcional (único Centro de Excelência em FMS do
+            Centro-Oeste).
           </p>
         </Div>
       </Div>

@@ -16,7 +16,7 @@ export default async function Page() {
             alt="Foto do estabelecimento"
             width={600}
             height={500}
-            className={styles['big-image']}
+            className={styles.image}
           />
         </div>
       </Div>

@@ -16,16 +16,40 @@
   height: auto;
   margin: auto;
   gap: var(--space-2xl);
+  border-radius: 8px;
 }
 
-.small-image {
+.team-image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  max-height: 270px;
   width: 100%;
   height: auto;
+  margin: auto;
+  gap: var(--space-2xl);
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.round-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.saturate-image {
   transition: all 0.3s ease-in;
-  filter: saturate(0);
+  filter: saturate(10%);
 
   &:hover {
-    filter: saturate(1);
+    filter: saturate(80%);
   }
 }
 
