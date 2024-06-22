@@ -55,7 +55,7 @@ export default async function Page() {
           <div className={styles['small-image-container']}>
             <Image
               src="/photo-001-330px-330px.png"
-              alt="Foto de treinamento na Connect Functional"
+              alt="Foto de treinamento na Connect Funcional"
               width={330}
               height={330}
               className={`${styles.image} ${styles['saturate-image']}`}
@@ -65,7 +65,7 @@ export default async function Page() {
           <div className={styles['small-image-container']}>
             <Image
               src="/photo-002-330px-330px.jpg"
-              alt="Foto da estrutura da Connect Functional"
+              alt="Foto da estrutura da Connect Funcional"
               width={330}
               height={330}
               className={`${styles.image} ${styles['saturate-image']}`}
@@ -188,7 +188,7 @@ export default async function Page() {
           <div className={styles['team-image-container']}>
             <Image
               src="/photo-005-270px-270px.jpg"
-              alt="Foto do instrutor da Connect Functional"
+              alt="Foto do instrutor da Connect Funcional"
               width={270}
               height={270}
               className={styles['round-image']}
