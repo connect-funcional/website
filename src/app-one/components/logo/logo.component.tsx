@@ -16,7 +16,7 @@ export const Logo = forwardRef<HTMLDivElement, DivProps>(
         <ThemeImage
           srcLight="/logo-connect-light-bg.png"
           srcDark="/logo-connect-dark-bg.png"
-          alt="Logotipo da Connect Functional"
+          alt="Logotipo da Connect Funcional"
           className={styles['logo-connect-img']}
           height={40}
           width={146}
