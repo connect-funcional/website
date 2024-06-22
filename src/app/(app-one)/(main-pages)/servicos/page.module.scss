@@ -12,8 +12,9 @@
     gap: var(--space-2xl);
   }
 
-  .small-image {
+  .image {
     width: 100%;
     height: auto;
+    border-radius: 18px;
   }
 }

@@ -44,11 +44,11 @@ export default async function Page() {
           <Div display="flex-column" gap="2xl">
             <div className={styles['small-image-container']}>
               <Image
-                src="/photo-003-330px.png"
+                src="/photo-003-330px-330px.png"
                 alt="Foto de treinamento na Connect Functional"
                 width={330}
                 height={330}
-                className={styles['small-image']}
+                className={styles.image}
               />
             </div>
           </Div>
