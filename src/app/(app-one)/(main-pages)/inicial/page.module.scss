@@ -38,6 +38,12 @@
   border-radius: 18px;
 }
 
+.round-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .saturate-image {
   transition: all 0.3s ease-in;
   filter: saturate(10%);

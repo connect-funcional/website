@@ -175,7 +175,38 @@ export default async function Page() {
           </Div>
         </Div>
 
-        {/* TODO: Here comes the team container */}
+        <Div
+          status="surface-3"
+          display="flex-column"
+          padding="l"
+          gap="2xl"
+          borderRadius
+          style={{ maxWidth: '460px' }}
+        >
+          <Title.H2 size="2xl">Gustavo Schlottfeldt Brandão</Title.H2>
+
+          <div className={styles['team-image-container']}>
+            <Image
+              src="/photo-005-270px-270px.jpg"
+              alt="Foto do instrutor da Connect Functional"
+              width={270}
+              height={270}
+              className={styles['round-image']}
+            />
+          </div>
+
+          <p>
+            Graduado em Educação Física pela UCB, pós graduado em Musculação
+            pela UVA, Certificado Internacional no método FMS 1 & 2 (Functional
+            Movement Screen) e CooperPT Mentorship, Certificado nacional –
+            Construindo uma Base Sólida em Atletas – com Marcelo Lins. No
+            mercado desde 2002 atuando como Personal Trainer, Avaliador Físico
+            (Composição Corporal e de Movimento FMS), foi instrutor e
+            coordenador da Academia Corpo 4. Atualmente treinador do Instituto
+            Connect Funcional (único Centro de Excelência em FMS do
+            Centro-Oeste).
+          </p>
+        </Div>
       </Div>
 
       <Div
