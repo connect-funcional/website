@@ -72,8 +72,8 @@ const defaultFont = nunitoSansFont({
   subsets: ['latin'],
 });
 
-export default function Layout({ children }: LayoutProps) {
-  const nextCookies = cookies();
+export default async function Layout({ children }: LayoutProps) {
+  const nextCookies = await cookies();
   const theme = nextCookies.get(themeKeys.STORAGE_KEY);
 
   return (
