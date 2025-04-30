@@ -41,17 +41,15 @@ export default async function Page() {
             </p>
           </Div>
 
-          <Div display="flex-column" gap="2xl">
-            <div className={styles['small-image-container']}>
-              <Image
-                src="/photo-003-330px-330px.png"
-                alt="Foto de treinamento na Connect Funcional"
-                width={330}
-                height={330}
-                className={styles.image}
-              />
-            </div>
-          </Div>
+          <div className={styles['small-image-container']}>
+            <Image
+              src="/photo-003-330px-330px.png"
+              alt="Foto de treinamento na Connect Funcional"
+              width={330}
+              height={330}
+              className={styles.image}
+            />
+          </div>
         </Div>
 
         <Div
