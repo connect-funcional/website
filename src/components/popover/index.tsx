@@ -132,13 +132,13 @@ function Root({
 Root.displayName = 'Popover.Root';
 
 export interface TriggerButtonProps extends ButtonPropsWithRef {
-  asChild?: boolean;
+  // asChild?: boolean;
 }
 
 const TriggerButton = ({
   children,
   ref: propRef,
-  asChild = false,
+  // asChild = false,
   ...props
 }: TriggerButtonProps) => {
   const context = usePopoverContext();
@@ -146,18 +146,18 @@ const TriggerButton = ({
   const childrenRef = (children as any).ref;
   const ref = useMergeRefs([context.refs.setReference, propRef, childrenRef]);
 
-  // `asChild` allows to pass any element as the anchor
-  if (asChild && React.isValidElement(children)) {
-    return React.cloneElement(
-      children,
-      context.getReferenceProps({
-        ref,
-        ...props,
-        ...children.props,
-        'data-state': context.open ? 'open' : 'closed',
-      }),
-    );
-  }
+  // // `asChild` allows to pass any element as the anchor
+  // if (asChild && React.isValidElement(children)) {
+  //   return React.cloneElement(
+  //     children,
+  //     context.getReferenceProps({
+  //       ref,
+  //       ...props,
+  //       ...children.props,
+  //       'data-state': context.open ? 'open' : 'closed',
+  //     }),
+  //   );
+  // }
 
   return (
     <Button
