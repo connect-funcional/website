@@ -131,9 +131,7 @@ function Root({
 
 Root.displayName = 'Popover.Root';
 
-export interface TriggerButtonProps extends ButtonPropsWithRef {
-  // asChild?: boolean;
-}
+export type TriggerButtonProps = ButtonPropsWithRef;
 
 const TriggerButton = ({
   children,
