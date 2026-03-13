@@ -1,9 +1,4 @@
-import react from "eslint-plugin-react";
-import reactHooks from "eslint-plugin-react-hooks";
-import jsxA11Y from "eslint-plugin-jsx-a11y";
-import _import from "eslint-plugin-import";
 import importHelpers from "eslint-plugin-import-helpers";
-import { fixupPluginRules } from "@eslint/compat";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
@@ -17,17 +12,15 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-export default [...compat.extends(
+export default [{
+    ignores: [".next/**", "node_modules/**"],
+}, ...compat.extends(
     "next/core-web-vitals",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
 ), {
     plugins: {
-        react,
-        "react-hooks": fixupPluginRules(reactHooks),
-        "jsx-a11y": jsxA11Y,
-        import: fixupPluginRules(_import),
         "import-helpers": importHelpers,
     },
 
@@ -76,7 +69,7 @@ export default [...compat.extends(
         "no-restricted-syntax": "off",
         "no-shadow": "off",
         "no-unused-expressions": "off",
-        "prettier/prettier": "warn"/
+        "prettier/prettier": "warn",
         "react-hooks/exhaustive-deps": "warn",
         "react-hooks/rules-of-hooks": "error",
         "react/button-has-type": "off",
