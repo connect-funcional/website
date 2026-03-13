@@ -5,9 +5,7 @@ import { GearSVG } from '@/media/svg';
 
 import { ThemePopoverMenuItens } from './theme-popover-menu-itens.component';
 
-interface ConfigPopoverProps extends ButtonProps {
-  //
-}
+type ConfigPopoverProps = ButtonProps;
 
 /**
  * ## ConfigPopover component

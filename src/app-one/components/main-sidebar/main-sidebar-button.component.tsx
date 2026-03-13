@@ -10,7 +10,7 @@ import {
   toggleMainModalSidebar as toggleModal,
 } from '@/state/main-sidebar.state';
 
-interface MainSidebarButtonProps extends SidebarOpenCloseButtonProps {}
+type MainSidebarButtonProps = SidebarOpenCloseButtonProps;
 
 /**
  * ## SidebarMenuButton component

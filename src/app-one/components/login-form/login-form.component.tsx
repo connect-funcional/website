@@ -8,11 +8,10 @@ import { regex, route } from '@/config';
 
 import styles from './login-form.module.scss';
 
-interface LoginFormProps
-  extends DetailedHTMLProps<
-    FormHTMLAttributes<HTMLFormElement>,
-    HTMLFormElement
-  > {}
+type LoginFormProps = DetailedHTMLProps<
+  FormHTMLAttributes<HTMLFormElement>,
+  HTMLFormElement
+>;
 
 export const LoginForm = ({ className, ...props }: LoginFormProps) => {
   const router = useRouter();
